@@ -7,6 +7,7 @@ import { BrowserRouter , Route, Routes } from "react-router-dom";
 import TopicQuiz from './screens/TopicQuiz/TopicQuiz'
 import LoginScreen from './screens/LoginScreen/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen/RegisterScreen';
+import AdminPage from './screens/AdminPage/AdminPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
   <Route path='/topicQuiz'  element={<TopicQuiz />} />
   <Route path='/login'  element={<LoginScreen />}  />
   <Route path='/register' element={<RegisterScreen />} />
+  <Route path='/Admin' element={<AdminPage />} />
 
   </Routes>
 </main>

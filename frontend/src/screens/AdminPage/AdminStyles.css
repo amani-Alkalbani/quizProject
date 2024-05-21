@@ -1,0 +1,26 @@
+.add-question-form {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-question-form h2 {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.add-question-form .form-control {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.add-question-form .btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+.add-question-form .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}

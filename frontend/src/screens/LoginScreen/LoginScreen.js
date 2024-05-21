@@ -24,7 +24,7 @@ function LoginScreen() {
     useEffect(() => {
         if (userInfo) {
             if (userInfo.isAdmin === true) {
-                navigate('/');
+                navigate('/Admin');
             } else {
                 navigate('/topicQuiz');
             }
