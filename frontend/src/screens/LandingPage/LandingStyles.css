@@ -1,0 +1,42 @@
+.main {
+    padding-top: 50px; /* Add some top padding */
+  }
+  
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    height: 100%;
+    margin-top: 11%;
+  }
+  
+  .content {
+    text-align: center; /* Center horizontally */
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+    
+    justify-content: space-evenly;
+  }
+  
+  .landing-button {
+    margin-right: 10px; /* Add some space between buttons */
+    width: 200px;
+  height: 55px;
+  }
+  
+  .quiz-image {
+    max-width: 100%;
+    height: auto;
+  }

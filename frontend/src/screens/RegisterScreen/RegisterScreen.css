@@ -1,0 +1,117 @@
+.register-main-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+ 
+}
+
+
+
+
+.register-container {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    width: 900px;
+    height: 600px;
+}
+
+.register-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.register-form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5d17b8;
+    border-color: #5d17b8;
+}
+
+.register-button:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.profilePicContainer {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.profilePic {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profilePicContainer input[type="file"] {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-3 .col {
+    text-align: center;
+}
+
+.sign-up-link {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up-link:hover {
+    background-color: #e9ecef;
+    color: #28a745;
+}
+
+.register-side{
+    background-color: #45297d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-up-link{
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+
+}

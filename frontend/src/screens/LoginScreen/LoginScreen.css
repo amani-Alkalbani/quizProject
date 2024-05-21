@@ -1,0 +1,79 @@
+.login-main-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+ 
+}
+
+.login-container {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    width: 800px;
+    height: 400px;
+}
+
+.login-form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5d17b8;
+    border-color: #5d17b8;
+}
+
+.sign-in-button:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.login-side {
+    background-color: #45297d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-here {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sign-up-link {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up-link:hover {
+    background-color: #e9ecef;
+    color: #28a745;
+}
