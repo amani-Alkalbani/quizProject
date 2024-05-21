@@ -14,11 +14,11 @@ Quizzy App is a full-stack application built with React, Redux, Node.js, Express
 
  <h3>Technologies Used</h3>
 
-- <h4>Frontend</h4>: React, Redux, React Router, React Bootstrap
-- <h4>Backend </h4>: Node.js, Express
-- <h4> Database</h4>: MongoDB
-- <h4>Authentication</h4>: JWT
-- <h4>State Management </h4>: Redux
+- <h4>Frontend :</h4> React, Redux, React Router, React Bootstrap
+- <h4>Backend: </h4> Node.js, Express
+- <h4> Database :</h4> MongoDB
+- <h4>Authentication :</h4> JWT
+- <h4>State Management: </h4> Redux
 
 
 
